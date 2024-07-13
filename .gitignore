@@ -303,3 +303,12 @@ typings/
 
 # Yarn Integrity file
 .yarn-integrity
+
+# Virtual environment - Austin Tan 
+virtual-enviroment/
+
+# Static Data
+website_controller/website_media/recent_event_images/
+
+# Javascript Webpack
+website_controller/website_frontend/static/frontend/
