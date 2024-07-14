@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
+import ViewportAwareNavbar from "./components/navbar/ViewportAwareNavbar";
 import HomePage from "./pages/HomePage";
 import AboutUsPage from "./pages/AboutUsPage";
 import EventsPage from "./pages/EventsPage";
@@ -9,7 +9,7 @@ import ContactUsPage from "./pages/ContactUsPage";
 function App() {
   return (
     <Router>
-      <Navbar />
+      <ViewportAwareNavbar />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutUsPage />} />
