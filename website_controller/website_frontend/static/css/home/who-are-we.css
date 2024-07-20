@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+#who-are-we-section {
+    width: 100%;
+    height: 800px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.who-are-we-content{
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;   
+    gap: 100px;
+}
+
+.who-are-we-image {
+    width: 600px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.who-are-we-word-content {
+    width: 500px;
+}
+
+.who-are-we-word-content h1{
+    font-size: 40px;
+    font-family: "Poppins", sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.who-are-we-word-content p {
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+}
