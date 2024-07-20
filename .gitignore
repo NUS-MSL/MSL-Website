@@ -312,3 +312,5 @@ website_controller/website_media/recent_event_images/
 
 # Javascript Webpack
 website_controller/website_frontend/static/frontend/
+website_controller/website_frontend/static/images/.DS_Store
+website_controller/website_frontend/.DS_Store

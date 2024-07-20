@@ -1,7 +1,11 @@
 import React from "react";
+import HomePageLanding from "../components/home/HomePageLanding"
+
 
 function HomePage() {
-    return (<h1>MSL HomePage</h1>);
+    return (
+        <HomePageLanding />
+    );
 }
     
 export default HomePage;
