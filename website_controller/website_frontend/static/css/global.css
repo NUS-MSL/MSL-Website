@@ -1,10 +1,15 @@
-.hidden {
+:root {
+    --secondary-color-1: #ff5757;
+    --secondary-color-2: #dbc7b3;
+}
+
+.fade-in-right-hidden {
     opacity: 0;
     transform: translateX(-100%);
     transition: all 1.5s;
 }
   
-.show{
+.fade-in-right-show {
     opacity: 1;
     transform: translateX(0);
 }

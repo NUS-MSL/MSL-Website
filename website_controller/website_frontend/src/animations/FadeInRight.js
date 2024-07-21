@@ -5,14 +5,14 @@ const useFadeInRight = () => {
         const observer = new IntersectionObserver((entries) => {
             entries.forEach((entry) => {
                 if (entry.isIntersecting) {
-                    entry.target.classList.add('show');
+                    entry.target.classList.add('fade-in-right-show');
                 } else {
-                    entry.target.classList.remove('show');
+                    entry.target.classList.remove('fade-in-right-show');
                 }
             });
         });
 
-        const hiddenElements = document.querySelectorAll('.hidden');
+        const hiddenElements = document.querySelectorAll('.fade-in-right-hidden');
         hiddenElements.forEach((el) => observer.observe(el));
 
         return () => {

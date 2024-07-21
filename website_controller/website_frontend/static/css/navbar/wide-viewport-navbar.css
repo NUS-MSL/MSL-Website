@@ -48,12 +48,12 @@
 }
 
 .wide-viewport-navbar-link:hover{
-    color:#fc7fb2;
+    color: var(--secondary-color-1);
 }
 
 .wide-viewport-navbar-link-active {
     text-decoration: none;
-    color: #fc7fb2;
+    color: var(--secondary-color-1);
 }
 
 

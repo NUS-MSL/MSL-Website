@@ -1,5 +1,5 @@
 import React from "react";
-import whoAreWeImage from "../../../static/images/home/Home-Page-Who-Are-We.jpeg";
+import whoAreWeImage from "../../../static/images/home/Home-Page-Who-Are-We.png";
 import "../../../static/css/home/who-are-we.css"; 
 
 

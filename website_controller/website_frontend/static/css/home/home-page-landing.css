@@ -14,7 +14,7 @@
     margin: 0px;
     padding: 0px;
     top: 20px;
-    color: #dbc7b3;
+    color: var(--secondary-color-2);
     font-family: 'Anton', sans-serif;
     font-size: 300px;
     z-index: 10;
