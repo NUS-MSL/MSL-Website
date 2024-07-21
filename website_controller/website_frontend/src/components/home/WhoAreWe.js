@@ -19,7 +19,7 @@ function WhoAreWe() {
                         and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 
                    
-                    <a href="" ><button className="learn-more-btn" onclick="">Learn More</button></a>
+                    <a href="/about" ><button className="learn-more-btn" onclick="">Learn More</button></a>
                 </div>
             </div>     
         </section>

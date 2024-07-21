@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 """Django's command-line utility for administrative tasks."""
 import os
+import subprocess
 import sys
 
 
@@ -15,7 +16,16 @@ def main():
             "available on your PYTHONPATH environment variable? Did you "
             "forget to activate a virtual environment?"
         ) from exc
-    execute_from_command_line(sys.argv)
+    if 'runserver' in sys.argv:
+        frontend_dir = os.path.join(os.path.dirname(__file__), 'website_frontend')
+        npm_process = subprocess.Popen(['npm', 'run', 'dev'], cwd=frontend_dir)
+
+    try:
+        execute_from_command_line(sys.argv)
+    finally:
+        if 'npm_process' in locals():
+            npm_process.terminate()
+
 
 
 if __name__ == '__main__':
