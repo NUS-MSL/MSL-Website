@@ -17,7 +17,7 @@ function WideViewportNavbar() {
             <NavLink 
               to="/" 
               className={({isActive}) => isActive ? "wide-viewport-navbar-link-active": "wide-viewport-navbar-link"} 
-              exact
+              exact="true"
             >
               Home
             </NavLink>

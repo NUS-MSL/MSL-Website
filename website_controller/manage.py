@@ -4,7 +4,6 @@ import os
 import subprocess
 import sys
 
-
 def main():
     """Run administrative tasks."""
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'website_controller.settings')
@@ -25,8 +24,6 @@ def main():
     finally:
         if 'npm_process' in locals():
             npm_process.terminate()
-
-
 
 if __name__ == '__main__':
     main()

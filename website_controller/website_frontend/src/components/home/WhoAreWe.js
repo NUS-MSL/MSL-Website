@@ -1,12 +1,14 @@
 import React from "react";
 import whoAreWeImage from "../../../static/images/home/Home-Page-Who-Are-We.png";
 import "../../../static/css/home/who-are-we.css"; 
-
+import FadeInRight from "../../animations/FadeInRight";
 
 function WhoAreWe() {
+    FadeInRight(); 
+
     return (
         <section id="who-are-we-section">
-            <div className="who-are-we-content">
+            <div className="who-are-we-container fade-in-right-hidden">
                 <img src={whoAreWeImage} alt="whoAreWeImage" className="who-are-we-image" />
                 <div className="who-are-we-word-content">
                     <h1>Who Are We ?</h1>
@@ -19,7 +21,7 @@ function WhoAreWe() {
                         and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 
                    
-                    <a href="/about" ><button className="learn-more-btn" onclick="">Learn More</button></a>
+                    <a href="/about" ><button className="learn-more-btn">Learn More</button></a>
                 </div>
             </div>     
         </section>
