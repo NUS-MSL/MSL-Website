@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+#home-page-landing-section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    overflow: hidden; 
+}
+
+.landing-title {
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    top: 20px;
+    color: var(--secondary-color-2);
+    font-family: 'Anton', sans-serif;
+    font-size: 300px;
+    z-index: 10;
+    letter-spacing: 25px;
+    text-shadow: 4px 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 1200px;
+}
+
+.home-page-landing-overlay {
+    position: absolute;
+    bottom: -50px;
+    width: 100%;
+    height: auto;
+    clip-path: inset(0 0 50px 0);
+    z-index: 0;
+}
+
+.home-page-landing-image {
+    position: relative;
+    bottom: 0;
+    width: 75%;
+    max-width: 100%;
+    height: auto;
+    z-index: 20;
+    transition: 1s;
+}
+
+.home-page-landing-image:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
